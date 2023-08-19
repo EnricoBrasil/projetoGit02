@@ -1,0 +1,10 @@
+
+.video{
+    background-color: aqua;
+    margin-top: 6rem;
+    height: 70vh;
+}
+
+.video iframe{
+    margin-top: 4rem;
+}
