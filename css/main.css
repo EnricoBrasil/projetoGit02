@@ -1,10 +1,20 @@
-
+/* INICIO VIDEO */
 .video{
     background-color: aqua;
     margin-top: 6rem;
-    height: 70vh;
+    max-width: 50rem;
 }
 
 .video iframe{
-    margin-top: 4rem;
+
+    margin-left: 30rem;
+    margin-top: 14rem;
+    /* margin-top: rem; */
 }
+/* FIM VIDEO */
+
+/* INICIO SOBRE NOS */
+.sobre-Nos{
+    background-color: aqua;
+}
+/* FIM SOBRE NOS */
