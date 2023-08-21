@@ -2,14 +2,14 @@
 /* .img-Main{
     display: flex;
     justify-content: center;
-    margin-top: 6.25rem;
+    margin-top: 100px;
 
 }
 
 .img-Main img{
-    width: 1000px;
-    height:640px;
-    border-radius: 30px;
+    width: 62.5rem;
+    height:40rem;
+    border-radius: 1.875rem;
 } */
 /* FIM VIDEO */
 
@@ -23,7 +23,7 @@
     background-color: aquamarine;
     background-image: url(/img/banner.jpg);
     background-size: cover;
-    height: 40.9375rem;
+    height: 655px;
     width:70%;
     justify-content: center;
 }
@@ -31,17 +31,17 @@
 
 /* INICIO SOBRE NOS */
 .SobreNos{
-    margin-top: 13.125rem;
+    margin-top: 210px;
 }
 
 .SobreNos h1{
     text-align: center;
     font-size: xx-large;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   
 }
 .container-sobreNos{
-    margin-top: 30px;
+    margin-top: 1.875rem;
     /* background-color: aqua; */
     display: flex;
     justify-content: center;
@@ -50,20 +50,107 @@
 
 .container-sobreNos article{
     /* background-color: azure; */
-    width: 37.5rem;
-    margin-left: 6.25rem;
-    font-size: 1.25rem;
-    padding: 3.125rem;
+    width: 600px;
+    margin-left: 100px;
+    font-size: 20px;
+    padding: 50px;
     text-align: justify;
     background-color: rgba(255, 255, 255, 0.452);
-    box-shadow: 0px 2px 8px grey;
-    border-radius: 30px 0px 0px 30px;
-    height: 31.25rem;
+    box-shadow: 0rem .125rem .5rem grey;
+    border-radius: 1.875rem 0rem 0rem 1.875rem;
+    height: 500px;
 }
 
 .container-sobreNos .img-SobreNos img{
     background-color: aliceblue;
-    border-radius: 0px 30px 30px 0px;
-    box-shadow: 3px 3px 8px grey;
+    border-radius: 0rem 1.875rem 1.875rem 0rem;
+    box-shadow: .1875rem .1875rem .5rem grey;
 }
 /* FIM SOBRE NOS */
+
+/* INICIO CARD */
+.nossasTrilhas{
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-Card{
+    background-color: rgba(255, 255, 255, 0.452); ;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0rem .125rem .5rem grey;
+    width: 93.75rem;
+    height: 37.5rem;
+    border-radius: 2.1875rem; 
+    flex-wrap: wrap;
+}
+
+
+.card{
+    margin-top: 3.125rem;
+    width: 300.8px;
+    height: 528px;
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 1.875rem;
+    border-bottom: 3px solid gray;
+}
+
+.card h1{
+    text-align: center;
+    margin-top: 3px;
+    
+}
+.card p{
+    font-size: .875rem;
+    text-align: justify;
+    padding: 8px;
+    
+}
+
+.img-card1{
+    background: url(/img/card01.jpg);
+    background-size: cover;
+    border-radius: .9375rem .9375rem 0rem 0rem;
+    width: 300px;
+    height: 400px;
+}
+.img-card2{
+    background: url(/img/card2.jpg);
+    background-size: cover;
+    border-radius: .9375rem .9375rem 0rem 0rem;
+    width: 300px;
+    height: 400px;
+}
+.img-card3{
+    background: url(/img/card3.jpg);
+    background-size: cover;
+    border-radius: .9375rem .9375rem 0rem 0rem;
+    width: 300px;
+    height: 400px;
+}
+/* INICIO HOVER CARD */
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    background-color: black;
+    color: white;
+}
+.img-card1:hover{
+    background: url(/img/card1fto2.jpg);
+    background-size: cover;
+}
+
+.img-card2:hover{
+    background: url(/img/card2fto2.jpg);
+    background-size: cover;
+}
+.img-card3:hover{
+    background: url(/img/card3fto2.jpg);
+    background-size: cover;
+    border-radius: .9375rem .9375rem 0rem 0rem;
+    width: 300px;
+    height: 400px;
+}
+/* FIM HOVER CARD */
+/* FIM CARD */
