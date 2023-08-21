@@ -1,5 +1,5 @@
 /* INICIO VIDEO */
-.img-Main{
+/* .img-Main{
     display: flex;
     justify-content: center;
     margin-top: 6.25rem;
@@ -10,13 +10,35 @@
     width: 1000px;
     height:640px;
     border-radius: 30px;
-}
+} */
 /* FIM VIDEO */
 
+/* INICIO BANNER */
+.banner{   
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.container-Banner{
+    background-color: aquamarine;
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    height: 40.9375rem;
+    width:70%;
+    justify-content: center;
+}
+/* FIM BANNER */
+
 /* INICIO SOBRE NOS */
+.SobreNos{
+    margin-top: 13.125rem;
+}
+
 .SobreNos h1{
     text-align: center;
     font-size: xx-large;
+    margin-bottom: 30px;
+  
 }
 .container-sobreNos{
     margin-top: 30px;
@@ -43,6 +65,5 @@
     background-color: aliceblue;
     border-radius: 0px 30px 30px 0px;
     box-shadow: 3px 3px 8px grey;
-
 }
 /* FIM SOBRE NOS */
