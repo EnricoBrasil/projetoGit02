@@ -2,19 +2,47 @@
 .img-Main{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 6.25rem;
 
 }
 
 .img-Main img{
-    width: 62.5rem;
-    height:40rem;
-    border-radius: 1.875rem;
+    width: 1000px;
+    height:640px;
+    border-radius: 30px;
 }
 /* FIM VIDEO */
 
 /* INICIO SOBRE NOS */
-.sobre-Nos{
-    background-color: aqua;
+.SobreNos h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.container-sobreNos{
+    margin-top: 30px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-sobreNos article{
+    /* background-color: azure; */
+    width: 37.5rem;
+    margin-left: 6.25rem;
+    font-size: 1.25rem;
+    padding: 3.125rem;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.452);
+    box-shadow: 0px 2px 8px grey;
+    border-radius: 30px 0px 0px 30px;
+    height: 31.25rem;
+}
+
+.container-sobreNos .img-SobreNos img{
+    background-color: aliceblue;
+    border-radius: 0px 30px 30px 0px;
+    box-shadow: 3px 3px 8px grey;
+
 }
 /* FIM SOBRE NOS */
