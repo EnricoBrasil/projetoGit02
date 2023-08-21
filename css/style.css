@@ -9,13 +9,13 @@
 .nav-header{
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.589);
+    border-bottom: .0625rem solid rgba(0, 0, 0, 0.589);
 }
 
 .nav-header img{
-    width: 80px;
-    height: 80px;
-    margin-top: 0.4rem;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 6.4px;
 }
 
 .nav-header ul{
@@ -24,7 +24,7 @@
 }
 
 .nav-header li{
-    font-size: 19px;
+    font-size: 1.1875rem;
     margin-left: 4vh;
     list-style: none;
     cursor: pointer;
@@ -33,6 +33,22 @@
 .nav-header li:hover{
     transform: scale(1.1);
     transition: 0.4s;
+}
+button{
+    padding: 7px;
+    margin-left: 3.125rem;
+    width: 6.25rem;
+    border-radius: 3.1251rem;
+    background-color: black;
+    color: white;
+    margin-bottom: .625rem;
+    cursor: pointer;
+}
+button:hover{
+transition: 0.6s;
+transform: scale(1.1);
+background-color: white;
+color: black;
 }
 
 
